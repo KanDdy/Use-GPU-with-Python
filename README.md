@@ -5,7 +5,7 @@
 
 2.cmake >=3.4.3
 ### 2.LLVM安装
-我使用的版本是LLVM4.0.0，LLVM的安装需要GCC>=4.8.0(关于GCC的升级见[这里](https://github.com/KanDdy/How-to-confugure-TensorFlow-on-Redhat-6.6)).
+我使用的版本是LLVM4.0.0,LLVM的安装需要GCC>=4.8.0(关于GCC的升级见[这里](https://github.com/KanDdy/How-to-confugure-TensorFlow-on-Redhat-6.6)).
 需要如下文件([下载地址](http://llvm.org/releases/download.html#4.0.0)):
 ```
 LLVM source code
