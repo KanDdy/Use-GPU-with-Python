@@ -1,5 +1,5 @@
 # Use-GPU-with-Python
-## PyCUDA和numba的安装**
+## PyCUDA和numba的安装
 ## 1.Prerequisites
 1.LLVM(GCC>=4.8.0)
 
@@ -20,15 +20,15 @@ LibC++ source code
 ```
 下载完成之后,将5个包都解压出来,得到:
 ```
-llvm-3.5.src
+llvm-4.0.0.src
 
-cfe-3.5.src
+cfe-4.0..src
 
-clang-tools-extra-3.5.src
+clang-tools-extra-4.0.0.src
 
-compiler-rt-3.5.src
+compiler-rt-4.0.0.src
 
-libcxx-3.5.src
+libcxx-4.0.0.src
 ```
 然后按下面的步骤组织:
 ```
