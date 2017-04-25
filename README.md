@@ -2,6 +2,7 @@
 ## PyCUDA和numba的安装**
 ## 1.Prerequisites
 1.LLVM(GCC>=4.8.0)
+
 2.cmake >=3.4.3
 ### 2.LLVM安装
 我使用的版本是LLVM4.0.0，LLVM的安装需要GCC>=4.8.0(关于GCC的升级见[这里](https://github.com/KanDdy/How-to-confugure-TensorFlow-on-Redhat-6.6)).
@@ -17,7 +18,7 @@ Compiler RT source code
 
 LibC++ source code
 ```
-下载完成之后，将5个包都解压出来，得到:
+下载完成之后,将5个包都解压出来,得到:
 ```
 llvm-3.5.src
 
@@ -40,7 +41,8 @@ mv extra/ llvm-4.0.0.src/tools/clang/
 mv compiler-rt-4.0.0.src compiler-rt
 mv compiler-rt llvm-4.0.0.src/projects/
 ```
-这样以后clang，clang-tools-extra和compiler-rt就可以和llvm一起编译了。
+这样以后clang,clang-tools-extra和compiler-rt就可以和llvm一起编译了.
+
 在llvm-4.0.0.src同一层目录上新建个目录build-4.0并进入:
 ```
 mkdir build-4.0 && cd build-4.0
@@ -53,7 +55,7 @@ cmake ../llvm-4.0.0.src
 ```
 make -j24 && make install
 ```
-随后查看llvm安装是否完成
+最后查看llvm安装是否完成
 ```
 clang --version
 clang version 4.0.0 (tags/RELEASE_400/final)
@@ -70,7 +72,7 @@ $ git clone https://github.com/numba/llvmlite
 $ cd llvmlite
 $ python setup.py install
 ```
-随后
+然后
 ```
 $ git clone https://github.com/numba/numba.git
 $ cd numba
