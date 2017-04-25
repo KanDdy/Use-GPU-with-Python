@@ -85,9 +85,11 @@ $ python setup.py install
 **NUMBAPRO_CUDA_DRIVER**
 
 Path to the CUDA driver shared library
+
 **NUMBAPRO_NVVM**
 
 Path to the CUDA libNVVM shared library file
+
 **NUMBAPRO_LIBDEVICE**
 
 Path to the CUDA libNVVM libdevice directory which contains .bc files
