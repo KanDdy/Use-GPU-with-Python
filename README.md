@@ -83,11 +83,15 @@ $ python setup.py install
 最后，为了我们能够使numba支持CUDA(CUDA安装见[这里](https://github.com/KanDdy/How-to-confugure-TensorFlow-on-Redhat-6.6))，我们需要设置三个环境变量：NUMBAPRO_CUDA_DRIVER,NUMBAPRO_NVVM和NUMBAPRO_LIBDEVICE，他们的官方说明如下:
 
 **NUMBAPRO_CUDA_DRIVER**
+
 Path to the CUDA driver shared library
 **NUMBAPRO_NVVM**
+
 Path to the CUDA libNVVM shared library file
 **NUMBAPRO_LIBDEVICE**
+
 Path to the CUDA libNVVM libdevice directory which contains .bc files
+
 如果CUDA是默认安装(`/usr/local/cuda`),则在`/etc/profile`最后加上:
 
 ```
