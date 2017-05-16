@@ -97,8 +97,8 @@ Path to the CUDA libNVVM libdevice directory which contains .bc files
 如果CUDA是默认安装(`/usr/local/cuda`),则在`/etc/profile`最后加上:
 
 ```
-export NUMBAPRO_NVVM=/usr/local/cuda-8.0/nvvm/lib64:$NUMBAPRO_NVVM
-export NUMBAPRO_LIBDEVICE=/usr/local/cuda-8.0/nvvm/libdevice:$NUMBAPRO_LIBDEVICE
+export NUMBAPRO_NVVM=/usr/local/cuda-8.0/nvvm/lib64/libnvvm.so
+export NUMBAPRO_LIBDEVICE=/usr/local/cuda-8.0/nvvm/libdevice
 ```
 关于`NUMBAPRO_CUDA_DRIVER`其实就是cuBLAS,cuRAND这些库文件的路径，一般为(`/usr/local/cuda-8.0/lib64`).
 最后,验证numba是否正确安装:
